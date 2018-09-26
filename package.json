@@ -1,0 +1,33 @@
+{
+  "name": "openlayerslearning",
+  "version": "1.0.0",
+  "description": "To demonstrate learning of Open Layers library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankaj-arunsingh/OpenLayersLearning.git"
+  },
+  "keywords": [
+    "openlayers",
+    "javascript",
+    "maps",
+    "ol"
+  ],
+  "author": "Pankaj Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pankaj-arunsingh/OpenLayersLearning/issues"
+  },
+  "homepage": "https://github.com/pankaj-arunsingh/OpenLayersLearning#readme",
+  "dependencies": {
+    "ol": "^5.2.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.10.0"
+  }
+}
